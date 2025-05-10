@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: var(--font-inter, sans-serif);
+    background-color: #f7f9fc;
+    color: rgb(255,255,255);
+    background-color: black;
+}
+
+header {
+    background: #37373759;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: linear-gradient(135deg, #4e54c8, #8f94fb);
+    color: white;
+    text-align: center;
+    padding: 5rem 2rem;
+}
+
+section {
+    background-image: url(back.png);
+    padding: 4rem 2rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.service {
+    margin-bottom: 1.5rem;
+}
+
+.note {
+    font-style: italic;
+    color: #555;
+}
+
+ol,
+ul {
+    padding-left: 1.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 500px;
+    margin: 2rem auto;
+}
+
+form input,
+form textarea {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #4e54c8;
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
